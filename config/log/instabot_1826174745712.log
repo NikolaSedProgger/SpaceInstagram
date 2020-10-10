@@ -1,0 +1,32 @@
+2020-10-10 13:07:45,344 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-10 13:07:45,344 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Седаков Николай\AppData\Roaming\Python\Python38\site-packages\instabot\bot\bot.py
+2020-10-10 13:07:46,508 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-10-10 13:07:46,508 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-10-10 13:07:46,508 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d6e2d212-fecc-438c-82b4-c1917d17607b
+- uuid=cd962ea6-af18-4eff-a32b-d5eb2207550f
+- client_session_id=ba8bac4d-962c-4922-84a3-ee3a0233f442
+- device_id=android-1dfe64b4f1b67469
+2020-10-10 13:07:46,510 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-10-10 13:07:47,197 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-10-10 13:07:47,558 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-10-10 13:07:47,854 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-10-10 13:07:48,143 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-10-10 13:07:48,521 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-10-10 13:07:48,806 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-10-10 13:07:49,310 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-10-10 13:07:49,602 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-10-10 13:07:49,927 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-10-10 13:07:49,929 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'NikolaSProgger'!
+2020-10-10 13:07:49,929 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger.checkpoint
+2020-10-10 13:07:51,158 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 13:07:51,158 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3849.jpg' is not uploaded.
+2020-10-10 13:07:51,953 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 13:07:51,954 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3850.jpg' is not uploaded.
+2020-10-10 13:07:54,651 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 13:07:54,651 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3851.jpg' is not uploaded.
+2020-10-10 13:07:57,655 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 13:07:57,655 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3852.jpg' is not uploaded.
+2020-10-10 13:07:59,187 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 13:07:59,188 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3853.jpg' is not uploaded.

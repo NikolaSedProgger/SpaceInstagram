@@ -1,0 +1,17 @@
+2020-10-10 11:46:02,033 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-10 11:46:02,034 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Седаков Николай\AppData\Roaming\Python\Python38\site-packages\instabot\bot\bot.py
+2020-10-10 11:46:04,027 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-10-10 11:46:04,028 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-10-10 11:46:04,028 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d6e2d212-fecc-438c-82b4-c1917d17607b
+- uuid=cd962ea6-af18-4eff-a32b-d5eb2207550f
+- client_session_id=650ce802-2176-4c7a-976c-f35c67ba3441
+- device_id=android-1dfe64b4f1b67469
+2020-10-10 11:46:04,028 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-10-10 11:46:05,770 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-10-10 11:46:06,221 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-10-10 11:46:06,222 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'NikolaSProgger'!
+2020-10-10 11:46:06,222 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger.checkpoint
+2020-10-10 11:46:06,241 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger.checkpoint
+2020-10-10 11:46:06,242 - instabot version: 0.117.0 (bot) - INFO - Total requests: 41

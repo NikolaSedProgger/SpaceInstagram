@@ -1,0 +1,202 @@
+2020-10-10 12:46:05,208 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-10-10 12:46:05,208 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Седаков Николай\AppData\Roaming\Python\Python38\site-packages\instabot\bot\bot.py
+2020-10-10 12:46:06,372 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-10-10 12:46:06,372 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-10-10 12:46:06,372 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d6e2d212-fecc-438c-82b4-c1917d17607b
+- uuid=cd962ea6-af18-4eff-a32b-d5eb2207550f
+- client_session_id=ba8bac4d-962c-4922-84a3-ee3a0233f442
+- device_id=android-1dfe64b4f1b67469
+2020-10-10 12:46:06,373 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-10-10 12:46:07,234 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-10-10 12:46:07,605 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-10-10 12:46:07,606 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'NikolaSProgger'!
+2020-10-10 12:46:07,606 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger.checkpoint
+2020-10-10 12:46:27,364 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:46:27,669 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:46:27,669 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3832.jpg' is uploaded.
+2020-10-10 12:46:47,155 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:46:47,490 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:46:47,491 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3833.jpg' is uploaded.
+2020-10-10 12:47:08,733 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:47:09,012 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:47:09,013 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3835.jpg' is uploaded.
+2020-10-10 12:47:29,573 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:47:29,917 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:47:29,917 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3837.jpg' is uploaded.
+2020-10-10 12:47:51,064 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:47:51,340 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:47:51,341 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3838.jpg' is uploaded.
+2020-10-10 12:48:13,660 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:48:14,084 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:48:14,085 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3839.jpg' is uploaded.
+2020-10-10 12:48:34,718 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:48:35,183 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:48:35,183 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3840.jpg' is uploaded.
+2020-10-10 12:48:58,190 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:48:58,478 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:48:58,479 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3841.jpg' is uploaded.
+2020-10-10 12:49:19,548 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:49:19,968 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:49:19,969 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3842.jpg' is uploaded.
+2020-10-10 12:49:41,855 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:49:42,142 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:49:42,143 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3843.jpg' is uploaded.
+2020-10-10 12:50:03,448 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:50:03,737 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:50:03,738 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3844.jpg' is uploaded.
+2020-10-10 12:50:23,557 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:50:23,854 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:50:23,855 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3845.jpg' is uploaded.
+2020-10-10 12:50:45,725 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:50:46,109 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:50:46,110 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3846.jpg' is uploaded.
+2020-10-10 12:51:06,736 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:51:07,044 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:51:07,045 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3847.jpg' is uploaded.
+2020-10-10 12:51:28,598 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:51:28,908 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:51:28,908 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3848.jpg' is uploaded.
+2020-10-10 12:51:31,185 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:31,185 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3849.jpg' is not uploaded.
+2020-10-10 12:51:32,329 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:32,329 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3850.jpg' is not uploaded.
+2020-10-10 12:51:35,342 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:35,342 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3851.jpg' is not uploaded.
+2020-10-10 12:51:39,019 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:39,019 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3852.jpg' is not uploaded.
+2020-10-10 12:51:42,128 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:42,128 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3853.jpg' is not uploaded.
+2020-10-10 12:51:45,481 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:45,482 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3854.jpg' is not uploaded.
+2020-10-10 12:51:47,629 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:47,630 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3855.jpg' is not uploaded.
+2020-10-10 12:51:49,955 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:49,955 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3856.jpg' is not uploaded.
+2020-10-10 12:51:53,596 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:53,597 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3857.jpg' is not uploaded.
+2020-10-10 12:51:54,554 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:54,554 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3858.jpg' is not uploaded.
+2020-10-10 12:51:55,887 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:55,888 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3859.jpg' is not uploaded.
+2020-10-10 12:51:59,059 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:51:59,061 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3860.jpg' is not uploaded.
+2020-10-10 12:52:02,109 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:02,110 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3861.jpg' is not uploaded.
+2020-10-10 12:52:03,269 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:03,269 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3862.jpg' is not uploaded.
+2020-10-10 12:52:05,120 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:05,120 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3863.jpg' is not uploaded.
+2020-10-10 12:52:06,836 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:06,836 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3864.jpg' is not uploaded.
+2020-10-10 12:52:10,015 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:10,015 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3865.jpg' is not uploaded.
+2020-10-10 12:52:12,897 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:12,898 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3866.jpg' is not uploaded.
+2020-10-10 12:52:15,465 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:15,465 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3868.jpg' is not uploaded.
+2020-10-10 12:52:17,893 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:17,893 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3869.jpg' is not uploaded.
+2020-10-10 12:52:18,940 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:18,940 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3870.jpg' is not uploaded.
+2020-10-10 12:52:20,709 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:20,710 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3871.jpg' is not uploaded.
+2020-10-10 12:52:23,302 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:23,302 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3872.jpg' is not uploaded.
+2020-10-10 12:52:25,575 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:25,576 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3873.jpg' is not uploaded.
+2020-10-10 12:52:26,786 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:26,786 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3874.jpg' is not uploaded.
+2020-10-10 12:52:28,742 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:28,743 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3876.jpg' is not uploaded.
+2020-10-10 12:52:31,763 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:31,763 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3877.jpg' is not uploaded.
+2020-10-10 12:52:34,436 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:34,438 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3878.jpg' is not uploaded.
+2020-10-10 12:52:37,278 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:37,278 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3879.jpg' is not uploaded.
+2020-10-10 12:52:40,363 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:40,364 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3880.jpg' is not uploaded.
+2020-10-10 12:52:42,510 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:42,510 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3881.jpg' is not uploaded.
+2020-10-10 12:52:44,173 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:44,174 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3883.jpg' is not uploaded.
+2020-10-10 12:52:46,997 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:46,997 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3885.jpg' is not uploaded.
+2020-10-10 12:52:48,663 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:48,663 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3886.jpg' is not uploaded.
+2020-10-10 12:52:50,261 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:50,262 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3887.jpg' is not uploaded.
+2020-10-10 12:52:53,696 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:52:53,696 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3888.jpg' is not uploaded.
+2020-10-10 12:53:14,320 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:53:14,643 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:53:14,643 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3889.jpg' is uploaded.
+2020-10-10 12:53:35,532 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:53:35,849 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:53:35,850 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3891.jpg' is uploaded.
+2020-10-10 12:53:54,741 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:53:55,106 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:53:55,106 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3892.jpg' is uploaded.
+2020-10-10 12:54:15,476 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:54:15,777 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:54:15,778 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3893.jpg' is uploaded.
+2020-10-10 12:54:35,541 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:54:35,847 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:54:35,847 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3894.jpg' is uploaded.
+2020-10-10 12:54:55,241 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:54:55,571 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:54:55,572 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3895.jpg' is uploaded.
+2020-10-10 12:55:16,897 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:55:17,195 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:55:17,196 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3896.jpg' is uploaded.
+2020-10-10 12:55:36,332 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:55:36,629 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:55:36,630 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3897.jpg' is uploaded.
+2020-10-10 12:55:59,055 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:55:59,348 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:55:59,349 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3898.jpg' is uploaded.
+2020-10-10 12:56:20,797 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:56:21,093 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:56:21,093 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3899.jpg' is uploaded.
+2020-10-10 12:56:41,518 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:56:41,912 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:56:41,913 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3900.jpg' is uploaded.
+2020-10-10 12:57:03,666 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:57:04,033 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:57:04,034 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3901.jpg' is uploaded.
+2020-10-10 12:57:25,859 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:57:26,208 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:57:26,209 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3904.jpg' is uploaded.
+2020-10-10 12:57:45,384 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:57:45,691 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:57:45,691 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3927.jpg' is uploaded.
+2020-10-10 12:57:47,383 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2020-10-10 12:57:47,383 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3932.jpg' is not uploaded.
+2020-10-10 12:58:08,933 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:58:09,231 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:58:09,232 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3934.jpg' is uploaded.
+2020-10-10 12:58:29,464 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:58:29,837 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:58:29,838 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3938.jpg' is uploaded.
+2020-10-10 12:58:51,144 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:58:51,551 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:58:51,551 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3943.jpg' is uploaded.
+2020-10-10 12:59:12,027 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:59:12,536 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:59:12,538 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3945.jpg' is uploaded.
+2020-10-10 12:59:34,191 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:59:34,506 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:59:34,507 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3946.jpg' is uploaded.
+2020-10-10 12:59:54,516 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 12:59:54,805 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 12:59:54,806 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3947.jpg' is uploaded.
+2020-10-10 13:00:15,590 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 13:00:15,884 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 13:00:15,885 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3948.jpg' is uploaded.
+2020-10-10 13:00:36,574 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-10-10 13:00:36,863 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-10-10 13:00:36,864 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'images/3949.jpg' is uploaded.
+2020-10-10 13:00:37,851 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Седаков Николай\Desktop\Python\Api\Api  - SpaceInstagram/config/NikolaSProgger.checkpoint
+2020-10-10 13:00:37,852 - instabot version: 0.117.0 (bot) - INFO - Total requests: 137
