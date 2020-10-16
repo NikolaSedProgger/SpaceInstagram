@@ -1,4 +1,4 @@
 /.vscode
-/images
-/config
-/env
+/.images
+/.config
+/.env
