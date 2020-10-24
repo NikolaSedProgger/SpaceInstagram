@@ -8,35 +8,36 @@ from PIL import Image
 from instabot import Bot
 import random 
 import logging
-import save_images
+import save_image
 
 bot = Bot()
 
 def find_format(image_name):
   return ((image_name.replace('.', ' ')).split())[-1]
 
-def DownloadImage(url, image_id):
+def downloadimage(url, image_id):
   path = 'images/'
   filename = f'{image_id}.jpg'
   response = requests.get(url)
   last_image_url = response.json()['image_files'][-1]['file_url']
   url = f"https://{urlparse(last_image_url).netloc}{urlparse(last_image_url).path}"
   
-  save_images.SaveImages(path, url, filename)
+  os.makedirs(path, exist_ok=True)
+  save_image.saveimage(path, url, filename)
 
-def DownloadImageCollection(url):
+def downloadImagecollection(url):
     collections = ["holiday_cards", "wallpaper", "spacecraft", "news", "printshop", "stsci_gallery"]
     for collection in collections:
       response = requests.get(f"http://hubblesite.org/api/v3/images/{collection}")
       for index in response.json():
-          DownloadImage(f"{url}{index['id']}" , index['id'])   
+          downloadimage(f"{url}{index['id']}" , index['id'])   
 
-def ResizeImage(image_id, size1, size2):
+def resizeimage(image_id, size1, size2):
   image = Image.open(f"images/{image_id}.jpg")
   image.thumbnail((size1, size2))
   image.save(f"images/{image_id}.jpg")
 
-def UploadPhoto(image_id, caption):
+def uploadphoto(image_id, caption):
   bot.upload_photo(f"images/{image_id}.jpg", caption=caption)
 
 if __name__ == "__main__":
@@ -54,7 +55,7 @@ if __name__ == "__main__":
 
   for image_id in range(first_image_id, last_image_id):
     try:
-      ResizeImage(image_id, 1080, 1080)
-      UploadPhoto(image_id, random.choice(descriptions))
+      resizeimage(image_id, 1080, 1080)
+      uploadphoto(image_id, random.choice(descriptions))
     except FileNotFoundError:
       logging.error(f"фотография {image_id} не найдена")
