@@ -13,7 +13,7 @@ import save_image
 bot = Bot()
 
 def find_format(image_name):
-  return ((image_name.replace('.', ' ')).split())[-1]
+  return os.path.splitext(image_name)[-1]
 
 def downloadimage(url, image_id):
   path = 'images/'
@@ -25,20 +25,17 @@ def downloadimage(url, image_id):
   os.makedirs(path, exist_ok=True)
   save_image.saveimage(path, url, filename)
 
-def downloadImagecollection(url):
+def downloadimagecollection(url):
     collections = ["holiday_cards", "wallpaper", "spacecraft", "news", "printshop", "stsci_gallery"]
     for collection in collections:
       response = requests.get(f"http://hubblesite.org/api/v3/images/{collection}")
-      for index in response.json():
+      for element in response.json():
           downloadimage(f"{url}{index['id']}" , index['id'])   
 
 def resizeimage(image_id, size1, size2):
   image = Image.open(f"images/{image_id}.jpg")
   image.thumbnail((size1, size2))
   image.save(f"images/{image_id}.jpg")
-
-def uploadphoto(image_id, caption):
-  bot.upload_photo(f"images/{image_id}.jpg", caption=caption)
 
 if __name__ == "__main__":
   bot.login(username=os.getenv('LOGIN'), password=os.getenv('PASSWORD'), proxy=None)
@@ -56,6 +53,6 @@ if __name__ == "__main__":
   for image_id in range(first_image_id, last_image_id):
     try:
       resizeimage(image_id, 1080, 1080)
-      uploadphoto(image_id, random.choice(descriptions))
+      bot.upload_photo(f"images/{image_id}.jpg", caption=random.choice(descriptions)
     except FileNotFoundError:
       logging.error(f"фотография {image_id} не найдена")

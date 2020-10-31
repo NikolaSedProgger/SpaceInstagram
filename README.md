@@ -30,15 +30,17 @@ PASSWORD=Ваш пароль от Instagram профиля
 
 ### Как получить фотографии SpaceX
 Зависимости уже должны быть установлены
+
 ```python
 pip install -r requirements.txt
 ```
 
-После чего в командной строке переходи в директорию где лежит файл fetch_spacex.py 
-И вводим команду
+После чего импортируем в main.py fetch_spacex 
+И вводим в ```if __name__ == "__main__"```
 ```python
-python fetch_spacex.py
+fetch_spacex.getrocketsimages(url, path)
 ```
+вместо url и path подставляем нужные перемнные
 
 И получаем фотографии ракет SpaceX
 
@@ -48,12 +50,12 @@ python fetch_spacex.py
 ```python
 pip install -r requirements.txt
 ```
-
-После чего в командной строке переходи в директорию где лежит файл fetch_hubble.py 
-И вводим команду
+После чего импортируем в main.py fetch_hubble 
+И вводим в ```if __name__ == "__main__"```
 ```python
-python fetch_hubble.py
+fetch_hubble.gethubbleimages(url, path)
 ```
+вместо url и path подставляем нужные перемнные
 
 И получаем фотографии Hubble
 
