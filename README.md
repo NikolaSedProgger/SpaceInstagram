@@ -35,13 +35,10 @@ PASSWORD=Ваш пароль от Instagram профиля
 pip install -r requirements.txt
 ```
 
-После чего импортируем в main.py fetch_spacex 
-И вводим в ```if __name__ == "__main__"```
-```python
-fetch_spacex.getrocketsimages(url, path)
+Вводим в консоле
+```console
+py fetch_spacex.py
 ```
-вместо url и path подставляем нужные перемнные
-
 И получаем фотографии ракет SpaceX
 
 ### Как получить фотографии Hubble
@@ -50,14 +47,19 @@ fetch_spacex.getrocketsimages(url, path)
 ```python
 pip install -r requirements.txt
 ```
-После чего импортируем в main.py fetch_hubble 
-И вводим в ```if __name__ == "__main__"```
-```python
-fetch_hubble.gethubbleimages(url, path)
-```
-вместо url и path подставляем нужные перемнные
 
-И получаем фотографии Hubble
+Вводим в консоле
+```console
+py fetch_hubble.py
+```
+Получаем фотографии Hubble
+И фотографии из коллекций Hubble таких как
+* holiday_cards 
+* wallpaper, 
+* spacecraft, 
+* news, 
+* printshop, 
+* stsci_gallery
 
 ## Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/modules/).
