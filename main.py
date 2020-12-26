@@ -11,12 +11,6 @@ import logging
 import save_image
 import argparse
 
-
-bot = Bot()
-
-def find_format(image_name):
-  return os.path.splitext(image_name)[-1]
-
 def downloadimage(url, image_id):
     path = 'images/'
     filename = f'{image_id}.jpg'
@@ -33,9 +27,11 @@ def resizeimage(image_id, size1, size2):
     image.save(f"images/{image_id}.jpg")
 
 if __name__ == "__main__":
+    bot = Bot()
+    
     bot.login(username=os.getenv('LOGIN'), password=os.getenv('PASSWORD'), proxy=None)
 
-    first_image_id = 3815
+    first_image_id = 3961
     last_image_id = 4747
 
     url = 'https://api.spacexdata.com/v3/launches'
@@ -47,7 +43,14 @@ if __name__ == "__main__":
 
     for image_id in range(first_image_id, last_image_id):
         try:
-          resizeimage(image_id, 1080, 1080)
-          bot.upload_photo(f"images/{image_id}.jpg", caption=random.choice(descriptions))
+            resizeimage(image_id, 1080, 1080)
+            raise ValueError("Devman")
+            bot.upload_photo(f"images/{image_id}.jpg", caption=random.choice(descriptions))
         except FileNotFoundError:
-          logging.error(f"фотография {image_id} не найдена")
+            logging.error(f"фотография {image_id} не найдена")
+        finally:
+            try:
+                removal_image_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'images', f'{image_id}.jpg')
+                os.remove(removal_image_path)
+            except FileNotFoundError:
+                print(f'{image_id}.jpg не найдено')
