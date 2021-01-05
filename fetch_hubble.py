@@ -7,6 +7,8 @@ def get_hubble_images(url, path):
     get_images = response.json()['image_files']
     images = [image['file_url'] for image in get_images]
     response.raise_for_status()
+    
+    return images
 
 def download_image_collection(url):
     collections = ["holiday_cards", "wallpaper", "spacecraft", "news", "printshop", "stsci_gallery"]
