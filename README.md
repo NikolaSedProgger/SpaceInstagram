@@ -35,7 +35,7 @@ PASSWORD=Ваш пароль от Instagram профиля
 pip install -r requirements.txt
 ```
 
-Вводим в консоле
+Вводим в консоль
 ```console
 py fetch_spacex.py
 ```
@@ -48,7 +48,7 @@ py fetch_spacex.py
 pip install -r requirements.txt
 ```
 
-Вводим в консоле
+Вводим в консоль
 ```console
 py fetch_hubble.py
 ```

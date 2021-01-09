@@ -1,29 +1,28 @@
 import requests
 import os
-import pathlib
-import json
-import itertools
 from urllib.parse import urlparse
-from PIL import Image
 from instabot import Bot
+from PIL import Image
 import random 
 import logging
 import save_image
-import argparse
+
 
 def download_image(url, image_id):
     path = 'images/'
     filename = f'{image_id}.jpg'
+    
     response = requests.get(url)
     last_image_url = response.json()['image_files'][-1]['file_url']
+    response.raise_for_status()
+    
     url = f"https://{urlparse(last_image_url).netloc}{urlparse(last_image_url).path}"
     
-    os.makedirs(path, exist_ok=True)
     save_image.save_image(path, url, filename)
  
-def resize_image(image_id, size1, size2):
+def resize_image(image_id, width, height):
     image = Image.open(f"images/{image_id}.jpg")
-    image.thumbnail((size1, size2))
+    image.thumbnail((width, height))
     image.save(f"images/{image_id}.jpg")
 
 if __name__ == "__main__":
@@ -31,8 +30,13 @@ if __name__ == "__main__":
     
     bot.login(username=os.getenv('BITLY_LOGIN'), password=os.getenv('BITLY_PASSWORD'), proxy=None)
 
-    first_image_id = 3961
-    last_image_id = 4747
+    path = "images/"
+    os.makedirs(path, exist_ok=True)
+
+    sorted_images_id = sorted(os.listdir(path))
+    first_image_id = sorted_images_id[0]
+    last_image_id = sorted_images_id[-1]
+    
     
     descriptions = ["Nice picture!", "Very Intresting!", "So Cool!", "Very beautifull landscape!", "OMG!", "Nice pic!", "No words only emotions"]
 
