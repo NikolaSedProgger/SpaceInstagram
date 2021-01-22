@@ -9,7 +9,7 @@ def get_rockets_images(url, path):
     response.raise_for_status()
     images_links = response.json()[images_links_index]['links']
     flickr_images = images_links['flickr_images']
-    for link, image_num in enumerate(flickr_images):
+    for image_num, link in enumerate(flickr_images):
         save_image.save_image(path, link, f'{image_num}.jpg')
 
 

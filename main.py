@@ -22,9 +22,8 @@ if __name__ == "__main__":
     path = "images/"
     os.makedirs(path, exist_ok=True)
 
-    sorted_images_id = sorted(os.listdir(path))
-    first_image_id = os.path.splitext(sorted_images_id[0])[0]
-    last_image_id = os.path.splitext(sorted_images_id[-1])[0]
+    first_image_id = os.path.splitext(os.listdir(path)[0])[0]
+    last_image_id = os.path.splitext(os.listdir(path)[-1])[0]
 
     descriptions = ["Nice picture!", "Very beautifull landscape!", "OMG!"]
 
