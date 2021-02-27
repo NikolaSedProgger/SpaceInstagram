@@ -15,6 +15,6 @@ def get_rockets_images(url, path):
 
 if __name__ == "__main__":
     url = 'https://api.spacexdata.com/v3/launches'
-    path = 'images/'
+    path = os.path.join("images")
     os.makedirs(path, exist_ok=True)
     get_rockets_images(url, path)
