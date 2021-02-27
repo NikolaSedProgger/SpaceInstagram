@@ -1,17 +1,14 @@
-import requests
 import os
-from urllib.parse import urlparse
 from instabot import Bot
 from PIL import Image
 import random
 import logging
-import save_image
 
 
-def resize_image(image_id, width, height):
-    image = Image.open(f"images/{image_id}.jpg")
+def resize_image(image_id, width, height, path):
+    image = Image.open(f"{path}/{image_id}.jpg")
     image.thumbnail((width, height))
-    image.save(f"images/{image_id}.jpg")
+    image.save(f"{path}/{image_id}.jpg")
 
 if __name__ == "__main__":
     bot = Bot()
@@ -19,7 +16,9 @@ if __name__ == "__main__":
     password = os.getenv('BITLY_PASSWORD')
     bot.login(username=login, password=password, proxy=None)
 
-    path = "images/"
+    path = os.path.join("images")
+    width = 1080
+    height = 1080
     os.makedirs(path, exist_ok=True)
 
     first_image_id = os.path.splitext(os.listdir(path)[0])[0]
@@ -29,14 +28,13 @@ if __name__ == "__main__":
 
     for image_id in range(first_image_id, last_image_id):
         try:
-            resize_image(image_id, 1080, 1080)
-            raise ValueError()
-            bot.upload_photo(f"images/{image_id}.jpg", caption=random.choice(descriptions))
+            resize_image(image_id, width, height, path)
+            bot.upload_photo(f"{path}/{image_id}.jpg", caption=random.choice(descriptions))
         except FileNotFoundError:
             logging.error(f"фотография {image_id} не найдена")
         finally:
             try:
-                removal_image_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'images', f'{image_id}.jpg')
+                removal_image_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), path, f'{image_id}.jpg')
                 os.remove(removal_image_path)
             except FileNotFoundError:
                 print(f'{image_id}.jpg не найдено')
