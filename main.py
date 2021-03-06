@@ -16,7 +16,7 @@ if __name__ == "__main__":
     password = os.getenv('BITLY_PASSWORD')
     bot.login(username=login, password=password, proxy=None)
 
-    path = os.path.join("images")
+    path = os.path.join(os.path.sep, 'images')
     width = 1080
     height = 1080
     os.makedirs(path, exist_ok=True)

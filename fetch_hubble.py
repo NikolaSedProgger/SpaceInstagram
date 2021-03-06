@@ -30,4 +30,4 @@ def get_hubble_images(collection, url):
 if __name__ == "__main__":
     second_url = 'http://hubblesite.org/api/v3/image/'
     download_images_collections(second_url)
-    path = os.path.join("images")
+    path = os.path.join(os.path.sep, 'images')
